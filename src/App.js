@@ -45,19 +45,25 @@ function App() {
 
 
       <div className="attribution">
+        <p>
         Challenge by <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="#">Vira Lok</a>.
+        </p>
       </div>
     </div>
   );
 }
 const Header = styled.header`
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
   text-align:center;
   text-transform:uppercase;
   font-weight:900;
   font-size:30px;
   color:hsl(186, 14%, 43%);
   letter-spacing:30px;
+  height:30vh;
 `
 const Main = styled.main`
   display:flex;
